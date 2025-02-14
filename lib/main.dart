@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; //material standar kütüphanelerin olduğu kodu iöport etmeye yarıyor
 
 void main() {
   runApp(
@@ -8,7 +8,11 @@ void main() {
           title: Text("Ana Ekran"),
           backgroundColor: Colors.blueAccent,
           foregroundColor: Colors.white,
+          centerTitle: true,
         ),
+        backgroundColor: Colors.green[300],
+        body: Image.network(
+            "https://www.mdxblog.io/images/posts/how-to-use-images/grass-tree-sky.jpg"),
       ),
     ),
   );
