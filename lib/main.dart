@@ -11,8 +11,12 @@ void main() {
           centerTitle: true,
         ),
         backgroundColor: Colors.green[300],
-        body: Image.network(
-            "https://www.mdxblog.io/images/posts/how-to-use-images/grass-tree-sky.jpg"),
+        body: Center(
+          child: Image(
+            image: NetworkImage(
+                "https://www.mdxblog.io/images/posts/how-to-use-images/grass-tree-sky.jpg"),
+          ),
+        ),
       ),
     ),
   );
