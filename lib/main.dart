@@ -13,8 +13,8 @@ void main() {
         backgroundColor: Colors.green[300],
         body: Center(
           child: Image(
-            image: NetworkImage(
-                "https://www.mdxblog.io/images/posts/how-to-use-images/grass-tree-sky.jpg"),
+            image: AssetImage(
+                'images/three.jpg'), // dosyayı mutlaka dosya yolu ile çağırmalıyız
           ),
         ),
       ),
